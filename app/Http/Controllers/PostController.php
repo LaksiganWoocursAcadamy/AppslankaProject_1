@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Post;
 
+
 class PostController extends Controller
 {
     /**
@@ -13,7 +14,7 @@ class PostController extends Controller
      */
     public function index()
     {
-       $post = Post::paginate(6);
+       $post = Post::paginate(3);
         return view('post.index',compact('post'));
     }
 
@@ -23,7 +24,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view('post.create');
     }
 
     /**

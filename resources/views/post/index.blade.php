@@ -4,9 +4,9 @@
 
 @section('content')
 
-<div class="container">
+<div class="container mt-4">
     <div class="row">
-
+<h1 class="text-center">Our Posts</h1>
         @foreach($post as $posts)
 
             <!-- ONE CARD (this is the only card) -->
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Pagination -->
-    <div class="d-flex justify-content-center">
+    <div>
         {{ $post->links() }}
     </div>
 </div>

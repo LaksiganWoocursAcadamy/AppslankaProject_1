@@ -13,9 +13,11 @@
   </head>
   <body>
     <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg navbar-light  bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-Blue  bg-dark text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Appslanka</a>
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon bg-light"></span>
+      <span class="navbar-toggler-icon bg-dark"></span>
     </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -41,9 +43,15 @@
       </nav>
     </div>
 
+
          <div class="container">
             @yield('content')
         </div>
+        <footer class="footer-fixed mt-4 bg-l text-white py-3">
+  <div class="container">
+    <p class="text-muted text-center">© 2026 Company. Built with Bootstrap 3.3.7.</p>
+  </div>
+</footer>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 

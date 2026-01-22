@@ -11,3 +11,6 @@ Route::get('About', [PageController::class, 'About']);
 Route::get('Contact', [PageController::class, 'Contact']);
 
 Route::get('posts', [PostController::class ,'index']);
+
+
+Route::resource('posts', PostController::class);
