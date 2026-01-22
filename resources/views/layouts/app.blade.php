@@ -28,6 +28,9 @@
               <li class="nav-item">
                 <a class="nav-link text-white" href="About">About</a>
               </li>
+                <li class="nav-item">
+                <a class="nav-link text-white" href="posts">Post</a>
+              </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
