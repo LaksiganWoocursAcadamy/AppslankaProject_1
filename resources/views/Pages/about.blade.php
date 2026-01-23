@@ -10,7 +10,7 @@
 @section('content')
 
 <!-- HERO SECTION -->
-<div class="bg-light py-5 mb-5">
+<div class="bg-light py-5 mb-5 mt-4">
     <div class="container text-center">
         <h1 class="display-5 fw-bold">About Our Company</h1>
         <p class="lead mt-3">

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Post;
 
 
+
 class PostController extends Controller
 {
     /**
@@ -32,7 +33,10 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //create new post
+        Post::create($request->all());
+        return redirect()->route('posts.index')
+        ->with('success','Post created successfully.');
     }
 
     /**
